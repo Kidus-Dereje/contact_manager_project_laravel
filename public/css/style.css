@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    padding: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited, a:active, a:hover{
+    color: inherit;
+}
+.not-empty{
+    color: rgb(142, 142, 142);
+    background-color: rgb(214, 214, 216);
+}
+
+.selected{
+    background-color: rgb(159, 159, 255);
+}
+
+.enabled{
+    color: black;
+    background-color: rgb(238, 238, 238);
+}
